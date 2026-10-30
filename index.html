@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio | Elfinna Sari Agustin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <a href="#home" class="brand"><span class="logo">E</span> Elfinna Sari Agustin  </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">What I Can Do</a>
+      <a href="#sertifikat">Sertifikat</a>
+      <a href="#sma">Documentation</a>
+    </nav>
+    <a href="#contact" class="btn small">Hire Me</a>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hello">Hello, i'm</p>
+      <h1>Elfinna Sari Agustin</h1>
+      <p class="sub">Informatic Engineering Student of University of Surabaya</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <!-- Ganti dengan fotomu: taruh di folder images/ lalu ubah nama file -->
+      <img src="image/elfinnssaa.jpg" alt="Foto profil" onerror="this.style.display='none'">
+      <span class="sticker s1">✨</span><span class="sticker s2">💻</span><span class="sticker s3">🌸</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="card pink">
+        <h3>Elfinna Sari Agustin</h3>
+        <p>Student who likes to turn ideas into real projects. Currently learning the basics of programming, networking, and system security.</p>
+        <a href="cv elfinna.pdf" class="btn small" download>Download CV</a>
+      </div>
+      <div class="card mint">
+        <dl>
+          <dt></dt><dd>Elfinna Sari Agustin</dd>
+          <dt></dt><dd>Surabaya, 18 Agustus 2008</dd>
+          <dt></dt><dd>Informatic Engineering Student</dd>
+          <dt></dt><dd>University of Surabaya</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="stats">
+      <div><b>1</b><span>Project</span></div>
+      <div><b>3+</b><span>Sertifikat</span></div>
+    </div>
+  </section>
+
+  <!-- WHAT I CAN DO -->
+  <section id="skills" class="section">
+    <h2>What I Can Do</h2>
+    <div class="skill-grid">
+      <div class="card lavender">
+        <div class="icon">🌐</div>
+        <h3>Web Development</h3>
+        <p>Membuat website responsif dengan HTML, CSS, dan JavaScript.</p>
+        <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span></div>
+      </div>
+      <div class="card peach">
+        <div class="icon">🔐</div>
+        <h3>Editing</h3>
+        <p>Photo editing dengan beberapa tools.</p>
+        <div class="chips"><span>Canva</span><span>IbisPaint</span></div>
+      </div>
+    </div>
+
+    <!-- SOFT SKILLS -->
+    <h3 class="sub-title">Soft Skills</h3>
+    <div class="soft-grid">
+      <!-- Salin satu blok <div class="soft ..."> untuk menambah skill -->
+      <div class="soft pink"><span class="emo">🤝</span><b>Teamwork</b><p>Terbiasa berdiskusi dan berbagi tugas dalam kelompok.</p></div>
+      <div class="soft mint"><span class="emo">💬</span><b>Communication</b><p>Menyampaikan ide dengan jelas, lisan maupun tulisan.</p></div>
+      <div class="soft lavender"><span class="emo">⏰</span><b>Time Management</b><p>Mengatur jadwal kuliah, tugas, dan kegiatan.</p></div>
+      <div class="soft peach"><span class="emo">🧠</span><b>Problem Solving</b><p>Mencari solusi dengan berpikir logis dan runtut.</p></div>
+      <div class="soft sky"><span class="emo">🌱</span><b>Quick Learner</b><p>Mau mencoba hal baru dan terus berkembang.</p></div>
+      <div class="soft pink"><span class="emo">⭐</span><b>Responsibility</b><p>Menyelesaikan amanah dengan tepat waktu.</p></div>
+    </div>
+
+    <!-- TOOLS (pakai logo) -->
+    <h3 class="sub-title">My Tools</h3>
+    <div class="tool-row">
+      <!-- Logo diambil dari internet. Kalau mau offline, ganti src ke file sendiri, misal images/logos/canva.png -->
+      <div class="tool pink"><img src="image/canva.jpg" alt="" onerror="this.style.display='none'"><span>Canva</span></div>
+      <div class="tool peach"><img src="image/ibis paint.jpg" alt="" onerror="this.style.display='none'"><span>IbisPaint</span></div>
+      <div class="tool mint"><img src="image/microsoft office.jpg" alt="" onerror="this.style.display='none'"><span>Microsoft Office</span></div>
+      <div class="tool lavender"><img src="image/vs code.jpg" alt="" onerror="this.style.display='none'"><span>VS Code</span></div>
+      <div class="tool peach"><img src="image/html.jpg" alt="" onerror="this.style.display='none'"><span>HTML</span></div>
+      <div class="tool sky"><img src="image/cpp.jpg" alt="" onerror="this.style.display='none'"><span>C++</span></div>
+    </div>
+  </section>
+
+  <!-- SERTIFIKAT (carousel) -->
+  <section id="sertifikat" class="section">
+    <div class="head">
+      <div>
+        <h2>Sertifikat</h2>
+        <p class="hint">Geser atau klik panah untuk melihat semuanya</p>
+      </div>
+      <div class="arrows">
+        <button class="arrow" data-dir="-1" aria-label="Sebelumnya">‹</button>
+        <button class="arrow" data-dir="1" aria-label="Berikutnya">›</button>
+      </div>
+    </div>
+    <div class="carousel">
+      <!-- Salin blok <article> untuk menambah sertifikat -->
+      <article class="slide pink">
+        <div class="photo"><img src="image/Screenshot 2026-10-07 185520.png" alt="Sertifikat 1" onerror="this.style.display='none'"></div>
+        <h3>Google Gemini Certificated Student</h3>
+        <p class="meta">2026 &bull; Google For Education</p>
+        <p>Menguasai pemanfaatan AI untuk meningkatkan produktivitas belajar, otomatisasi belajar, riset, serta penyusunan ide dan konten secara</p>
+      </article>
+      <article class="slide mint">
+        <div class="photo"><img src="image/Screenshot 2026-10-07 185853.png" alt="Sertifikat 2" onerror="this.style.display='none'"></div>
+        <h3>Gold Medalist-Independence Creation Olympiad</h3>
+        <p class="meta">2023 &bull; Global Youth and Peace Education Movement</p>
+        <p>Berhasil meraih Medali Emas pada kompetisi bidang Biology tingkat nasional yang di selenggarakan pada tanggal 12-13 August di Jakarta, Membuktikan pemahaman mendalam dalam analisis ilmu dan biology.</p>
+      </article>
+      <article class="slide lavender">
+        <div class="photo"><img src="image/sertif elfinna.png" alt="Sertifikat 3" onerror="this.style.display='none'"></div>
+        <h3>Webinar Machine Learning</h3>
+        <p class="meta">2026 &bull; SpecialSkill</p>
+        <p>Memahami konsep dasar machine learning dan penerapannya dalam proyek nyata.</p>
+      </article>
+      <article class="slide peach">
+        <div class="photo"><img src="image/WhatsApp Image 2026-10-17 at 23.05.59.jpeg" alt="Sertifikat 4" onerror="this.style.display='none'"></div>
+        <h3>Robotic System Webinar</h3>
+        <p class="meta">2026 &bull; Diagonal Robotics</p>
+        <p>Menguasai konsep dasar robotika dan penerapannya dalam proyek nyata.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- DOKUMENTASI KEGIATAN SMA (carousel polaroid) -->
+  <section id="sma" class="section">
+    <div class="head">
+      <div>
+        <h2>Dokumentation</h2>
+        <p class="hint">kegiatan di SMA Negeri 1 Driyorejo (2023 - 2026)</p>
+      </div>
+      <div class="arrows">
+        <button class="arrow" data-dir="-1" aria-label="Sebelumnya">‹</button>
+        <button class="arrow" data-dir="1" aria-label="Berikutnya">›</button>
+      </div>
+    </div>
+    <div class="carousel">
+      <!-- Salin blok <article> untuk menambah foto kegiatan -->
+      <article class="slide polaroid">
+        <div class="photo"><img src="image/sertijab mpk .jpg" alt="Sertijab MPK" onerror="this.style.display='none'"></div>
+        <h3>Sertijab MPK</h3>
+        <p class="meta">2024</p>
+        <p>Dalam acara ini, pengurus periode sebelumnya menyerahkan tanggung jawab kepada pengurus baru sebagai simbol keberlanjutan organisasi.</p>
+      </article>
+      <article class="slide polaroid">
+        <div class="photo"><img src="image/kir.jpg" alt="Ekstrakurikuler KIR" onerror="this.style.display='none'"></div>
+        <h3>Ekstrakurikuler KIR</h3>
+        <p class="meta">2023</p>
+        <p>Melalui kegiatan ini, saya belajar merumuskan masalah, mengumpulkan data, melakukan percobaan, hingga menyusun hasilnya menjadi karya tulis yang sistematis.</p>
+      </article>
+      <article class="slide polaroid">
+        <div class="photo"><img src="image/X-1.jpg" alt="Project P5" onerror="this.style.display='none'"></div>
+        <h3>Project P5</h3>
+        <p class="meta">2024</p>
+        <p>Kami belajar mengubah ide menjadi produk nyata, mulai dari merancang, memproduksi, hingga memasarkan. Dari kelas, kami melangkah ke dunia usaha.</p>
+      </article>
+      <article class="slide polaroid">
+        <div class="photo"><img src="image/ldks mpk.jpg" alt="LDKS MPK" onerror="this.style.display='none'"></div>
+        <h3>LDKS MPK</h3>
+        <p class="meta">2024</p>
+        <p>LDKS MPK menjadi tempat untuk menempa mental, kekompakan, dan jiwa kepemimpinan.</p>
+      </article>
+      <article class="slide polaroid">
+        <div class="photo"><img src="image/pelepasan.jpeg" alt="Kelulusan" onerror="this.style.display='none'"></div>
+        <h3>Kelulusan</h3>
+        <p class="meta">2026</p>
+        <p>Penutup perjalanan SMA sebelum melangkah ke dunia kuliah.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div>
+      <h2>Let's Work Together</h2>
+      <p>Terbuka untuk kolaborasi, magang, dan belajar bareng di bidang informatika.</p>
+      <a href="cv elfinna.pdf" class="btn" download>Download Resume</a>
+    </div>
+    <div class="contact-list">
+      <a class="card pink" href="mailto:elfinnaesa@gmail.com"><small>Email</small>elfinnaesa@gmail.com</a>
+      <a class="card mint" href="https://github.com/usernamekamu" target="_blank" rel="noopener"><small>GitHub</small>github.com/usernamekamu</a>
+      <a class="card sky" href="https://linkedin.com/in/elfinna-sari-agustin" target="_blank" rel="noopener"><small>LinkedIn</small>linkedin.com/in/elfinna-sari-agustin</a>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Elfinna Sari Agustin</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
